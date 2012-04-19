@@ -1,0 +1,81 @@
+﻿/* Twitter feed styling; borrowed from http://widgets.twimg.com/j/2/widget.css */
+.twtr-widget {
+position:relative;
+font-size:12px!important;
+font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif!important;
+zoom:1;
+}
+
+.twtr-widget a img {
+border:0!important;
+}
+
+.twtr-doc {
+overflow:hidden;
+width:100%;
+text-align:left;
+font-weight:400;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+padding:0 1px;
+}
+
+.twtr-widget .twtr-tweet-wrap {
+overflow:hidden;
+zoom:1;
+padding:6px 8px;
+}
+
+.twtr-widget .twtr-tweet {
+border-bottom:1px dotted #ddd;
+overflow:hidden;
+zoom:1;
+}
+
+.twtr-widget-profile img.twtr-profile-img {
+display:block;
+float:left;
+width:31px;
+height:31px;
+border:0!important;
+}
+
+.twtr-widget p {
+line-height:1.2!important;
+width:auto!important;
+margin:0!important;
+padding:0!important;
+}
+
+.twtr-widget em {
+font-size:9px;
+font-style:normal;
+display:block;
+margin-top:2px;
+zoom:1;
+}
+
+.twtr-timeline {
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+position:relative;
+overflow:hidden;
+z-index:2;
+height:225px;
+}
+
+.twtr-widget .twtr-tweet:last-child {
+border-bottom-width:0;
+}
+
+.twtr-doc a {
+text-decoration:none!important;
+}
+
+.twtr-doc a:hover {
+text-decoration:underline!important;
+}
+  
+
