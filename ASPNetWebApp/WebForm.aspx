@@ -7,7 +7,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <title>Web Form</title>
-    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/TwitterFeed.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,8 +20,13 @@
         <section id="main">
 
         <p>
-            Here's the Twitter control<br /><br />
+            Here's the traditional WebForms Twitter control<br /><br />
             <tf:TwitterFeedControl ID="TwitterFeedControl" runat="server" />
+        </p>
+
+        <p>
+            Here's the rendered-from-class Twitter control<br /><br />
+            <asp:Literal ID="litTwitterFeed" runat="server"></asp:Literal>
         </p>
 
         <p>

@@ -15,6 +15,12 @@ namespace ASPNetWebApp
             TwitterFeedControl.TwitterUserID = ConfigurationManager.AppSettings["TwitterUserID"];
             TwitterFeedControl.TwitterFeedUrl = ConfigurationManager.AppSettings["TwitterFeedURL"];
             TwitterFeedControl.TwitterFeedCacheTime = Convert.ToDouble(ConfigurationManager.AppSettings["TwitterFeedCacheTime"]);
+
+            TwitterFeed feed = new TwitterFeed();
+            feed.TwitterUserID = ConfigurationManager.AppSettings["TwitterUserID"];
+            feed.TwitterFeedUrl = ConfigurationManager.AppSettings["TwitterFeedURL"];
+            feed.TwitterFeedCacheTime = Convert.ToDouble(ConfigurationManager.AppSettings["TwitterFeedCacheTime"]);
+            litTwitterFeed.Text = feed.Render();
         }
     }
 }
